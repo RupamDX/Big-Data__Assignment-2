@@ -44,7 +44,7 @@ def get_data(table_name: str):
         cur = conn.cursor()
 
         # Build the query (fetch all rows from the specified table)
-        query = f"SELECT * FROM {table_name_upper}"
+        query = f"SELECT * FROM {table_name_upper} LIMIT 1000"
         cur.execute(query)
 
         rows = cur.fetchall()
