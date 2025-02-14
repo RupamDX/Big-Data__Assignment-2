@@ -1,0 +1,66 @@
+version: 2
+
+models:
+  - name: stg_parsed
+    description: "Staging model that parses raw JSON data"
+    columns:
+      - name: cik
+        tests:
+          - not_null
+      - name: filed
+        tests:
+          - not_null
+      - name: tag
+        tests:
+          - not_null
+      - name: value
+        tests:
+          - not_null
+
+  - name: balance_sheet
+    description: "Denormalized Balance Sheet fact table"
+    columns:
+      - name: cik
+        tests:
+          - not_null
+      - name: filed
+        tests:
+          - not_null
+      - name: tag
+        tests:
+          - not_null
+      - name: value
+        tests:
+          - not_null
+
+  - name: income_statement
+    description: "Denormalized Income Statement fact table"
+    columns:
+      - name: cik
+        tests:
+          - not_null
+      - name: filed
+        tests:
+          - not_null
+      - name: tag
+        tests:
+          - not_null
+      - name: value
+        tests:
+          - not_null
+
+  - name: cash_flow
+    description: "Denormalized Cash Flow fact table"
+    columns:
+      - name: cik
+        tests:
+          - not_null
+      - name: filed
+        tests:
+          - not_null
+      - name: tag
+        tests:
+          - not_null
+      - name: value
+        tests:
+          - not_null

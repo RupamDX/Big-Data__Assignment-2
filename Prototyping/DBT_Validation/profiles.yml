@@ -1,0 +1,26 @@
+sec_financials_project:
+  outputs:
+    dev:
+      account: feumdln-cm11635
+      database: SEC_FINANCIALS
+      password: Workdaykiran123$
+      role: ACCOUNTADMIN
+      schema: DEV
+      threads: 4
+      type: snowflake
+      user: kiranss777
+      warehouse: ANALYTICS_WH
+  target: dev
+sec_financials_project2:
+  outputs:
+    dev:
+      account: feumdln-cm11635
+      database: SEC_FINANCIALS
+      password: Workdaykiran123$
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 4
+      type: snowflake
+      user: kiranss777
+      warehouse: ANALYTICS_WH
+  target: dev

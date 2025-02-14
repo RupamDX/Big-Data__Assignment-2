@@ -1,0 +1,22 @@
+name: "sec_financials_project2"
+version: "1.0"
+config-version: 2
+
+# Set the profile to use (must match the key in profiles.yml)
+profile: "sec_financials_project2"
+
+# Use the new 'model-paths' key instead of the deprecated 'source-paths'
+model-paths: ["models"]
+
+# Target path for compiled models
+target-path: "target"
+
+# Clean targets
+clean-targets: ["target", "dbt_packages"]
+
+# Configure models in your project. This setting will tell dbt to build models in the PUBLIC schema.
+models:
+  sec_financials_project:
+    sec_data:
+      +schema: "PUBLIC"
+      +materialized: view # Default materialization for models (override in final models as needed)
