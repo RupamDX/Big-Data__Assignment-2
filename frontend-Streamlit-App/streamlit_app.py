@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Point this to your deployed FastAPI app (e.g., on Render)
-API_BASE_URL = "https://my-fastapi-snowflake.onrender.com"
+API_BASE_URL = "https://big-data-assignment-2.onrender.com"
 
 def fetch_table_data(table_name: str):
     """Fetch all rows from the specified Snowflake table via FastAPI."""
