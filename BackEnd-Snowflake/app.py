@@ -5,12 +5,12 @@ import os
 app = FastAPI()
 
 # Replace these with environment variables or your actual credentials
-SNOWFLAKE_USER = os.getenv("SNOWFLAKE_USER", "kiranss777")
-SNOWFLAKE_PASSWORD = os.getenv("SNOWFLAKE_PASSWORD", "Workdaykiran123$")
-SNOWFLAKE_ACCOUNT = os.getenv("SNOWFLAKE_ACCOUNT", "feumdln-cm11635")
-SNOWFLAKE_WAREHOUSE = os.getenv("SNOWFLAKE_WAREHOUSE", "ANALYTICS_WH")
-SNOWFLAKE_DATABASE = os.getenv("SNOWFLAKE_DATABASE", "SEC_FINANCIALS")
-SNOWFLAKE_SCHEMA = os.getenv("SNOWFLAKE_SCHEMA", "DEV")
+SNOWFLAKE_USER = os.getenv("SNOWFLAKE_USER")
+SNOWFLAKE_PASSWORD = os.getenv("SNOWFLAKE_PASSWORD")
+SNOWFLAKE_ACCOUNT = os.getenv("SNOWFLAKE_ACCOUNT")
+SNOWFLAKE_WAREHOUSE = os.getenv("SNOWFLAKE_WAREHOUSE")
+SNOWFLAKE_DATABASE = os.getenv("SNOWFLAKE_DATABASE")
+SNOWFLAKE_SCHEMA = os.getenv("SNOWFLAKE_SCHEMA")
 
 # Whitelist valid table names (uppercase in Snowflake by convention)
 VALID_TABLES = {"INCOME_STATEMENT", "BALANCE_SHEET", "CASH_FLOW"}
