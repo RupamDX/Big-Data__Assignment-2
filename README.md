@@ -19,11 +19,11 @@ This project showcases how to **fetch data** from [Snowflake](https://www.snowfl
 ![sec_data_processing_pipelines](https://github.com/user-attachments/assets/7909a62b-fc07-4269-b32c-71f5aefd881f)
 
 ## Tech Stack:
-AirFlow
-DBT
-Snowflake
-streamlit
-FastAPI
+**AirFlow**
+**DBT**
+**Snowflake**
+**streamlit**
+**FastAPI**
 
 
 ## Project Structure
