@@ -6,25 +6,7 @@ This project showcases how to **fetch data** from [Snowflake](https://www.snowfl
 ##Streamlit APP LINK:https://big-dataassignment-2-4znmzakwzd9uksved3xow6.streamlit.app/
 
 ##BackEnd Link: https://big-data-assignment-2.onrender.com
-## Table of Contents
 
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Key Features](#key-features)
-- [Requirements](#requirements)
-- [Local Development](#local-development)
-  - [Backend (FastAPI)](#backend-fastapi)
-  - [Frontend (Streamlit)](#frontend-streamlit)
-- [Environment Variables](#environment-variables)
-- [Deployment](#deployment)
-  - [Deploying FastAPI on Render](#deploying-fastapi-on-render)
-  - [Deploying Streamlit on Streamlit-Cloud](#deploying-streamlit-on-streamlit-cloud)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
----
 
 ## Overview
 
@@ -33,6 +15,16 @@ This project showcases how to **fetch data** from [Snowflake](https://www.snowfl
 - **Deployment**: The FastAPI service is hosted on Render, and the Streamlit UI is hosted on Streamlit Cloud.
 
 ---
+## Architecture Diagram
+![sec_data_processing_pipelines](https://github.com/user-attachments/assets/7909a62b-fc07-4269-b32c-71f5aefd881f)
+
+## Tech Stack:
+AirFlow
+DBT
+Snowflake
+streamlit
+FastAPI
+
 
 ## Project Structure
 
@@ -45,3 +37,8 @@ This project showcases how to **fetch data** from [Snowflake](https://www.snowfl
 │   ├── streamlit_app.py    # Streamlit application
 │   └── requirements.txt    # Dependencies for Streamlit + requests
 └── README.md               # This file
+
+----
+##AiUseDisclosure
+Tools used for debugging and understanding the tool setup flow Chatgpt Gemini
+1.Used the tool to setup the applications in local , add integrations on different applications. 2.Used it for debugging and solving errors 3.Helped us understand the flow of different tools and optimize our solutions 4.Understand the basic use of airflow,snowflake and configure it.
