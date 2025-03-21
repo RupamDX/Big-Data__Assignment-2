@@ -7,6 +7,8 @@ This project showcases how to **fetch data** from [Snowflake](https://www.snowfl
 
 ##BackEnd Link: https://big-data-assignment-2.onrender.com
 
+##Codelab Doc:https://codelabs-preview.appspot.com/?file_id=1DxRG82BB6EPuUBxK2cIVywoS1OmdwuE30waqx2Nrbas#8
+
 
 ## Overview
 
